@@ -17,7 +17,7 @@ This library facilitates the classification of optical remote sensing images usi
 
 1. **Clone the repository:**
 ```bash
-git https://github.com/pranavsingla/SwinViT_GNR650.git
+git clone https://github.com/pranavsingla/SwinViT_GNR650.git
 cd remote-sensing-library
 ```
 

@@ -1,4 +1,4 @@
-(env) pranav@biplab48gb:/home/pranav/Desktop/remote_sensing_library$ python3 main.py --config config/swinvit_million_aid.yaml
+$python3 main.py --config config/swinvit_million_aid.yaml
 Downloading Million-AID dataset...
 Dataset already downloaded and organized.
 /home/pranav/Desktop/remote_sensing_library/env/lib/python3.10/site-packages/PIL/Image.py:3406: DecompressionBombWarning: Image size (110124036 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
@@ -8,3 +8,16 @@ Dataset already downloaded and organized.
 Epoch 1/2 - Train loss: 3.2942, Val loss: 3.2691, Val accuracy: 0.1251
 Epoch 2/2 - Train loss: 3.2722, Val loss: 3.2561, Val accuracy: 0.1251
 
+Downloading Million-AID dataset...
+Dataset already downloaded and organized.
+/home/pranav/Desktop/remote_sensing_library/env/lib/python3.10/site-packages/PIL/Image.py:3406: DecompressionBombWarning: Image size (93508900 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+/home/pranav/Desktop/remote_sensing_library/env/lib/python3.10/site-packages/PIL/Image.py:3406: DecompressionBombWarning: Image size (110124036 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+
+
+Epoch 1/5 - Train loss: 3.2911, Val loss: 3.2631, Val accuracy: 0.1165
+Epoch 2/5 - Train loss: 3.1305, Val loss: 3.2698, Val accuracy: 0.1385
+Epoch 3/5 - Train loss: 3.1620, Val loss: 3.2659, Val accuracy: 0.1782
+Epoch 4/5 - Train loss: 3.1603, Val loss: 3.2502, Val accuracy: 0.2062
+Epoch 5/5 - Train loss: 3.0576, Val loss: 3.2315, Val accuracy: 0.2575
