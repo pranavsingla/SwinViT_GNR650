@@ -1,7 +1,7 @@
 # Remote Sensing Image Classification Library
 
 ## Overview
-This library facilitates the classification of optical remote sensing images using advanced deep learning models such as Vision Transformer (ViT) and Swin Transformer (SwinViT). It’s designed to be modular and extendable, enabling easy integration of additional datasets, models, and training strategies.
+This library facilitates the classification of optical remote sensing images using advanced deep learning models such as Vision Transformer (ViT), Swin Transformer (SwinViT), etc... This library also facilitates the automatic downloading of remote sensing datasets like Million AID and arranges them in the directory structure as shown below. It’s designed to be modular and extendable, enabling easy integration of additional datasets, models, and training strategies.
 
 ## Table of Contents
 - [Setup](#setup)
@@ -138,6 +138,3 @@ docker run --gpus all -v $(pwd)/data:/data -it remote-sensing-library
 ```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-```bash
-Feel free to copy and paste this directly into your `README.md` file.
-```

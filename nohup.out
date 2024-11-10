@@ -1,0 +1,9 @@
+(env) pranav@biplab48gb:/home/pranav/Desktop/remote_sensing_library$ python3 main.py --config config/swinvit_million_aid.yaml
+Downloading Million-AID dataset...
+Dataset already downloaded and organized.
+/home/pranav/Desktop/remote_sensing_library/env/lib/python3.10/site-packages/PIL/Image.py:3406: DecompressionBombWarning: Image size (110124036 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+/home/pranav/Desktop/remote_sensing_library/env/lib/python3.10/site-packages/PIL/Image.py:3406: DecompressionBombWarning: Image size (93508900 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+Epoch 1/2 - Train loss: 3.2942, Val loss: 3.2691, Val accuracy: 0.1251
+Epoch 2/2 - Train loss: 3.2722, Val loss: 3.2561, Val accuracy: 0.1251
