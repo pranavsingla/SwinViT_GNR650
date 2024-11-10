@@ -1,4 +1,4 @@
-# Remote Sensing Image Classification Library
+# Personalised Remote Sensing Image Classification Library
 
 ## Overview
 This library facilitates the classification of optical remote sensing images using advanced deep learning models such as Vision Transformer (ViT), Swin Transformer (SwinViT), etc... This library also facilitates the automatic downloading of remote sensing datasets like Million AID and arranges them in the directory structure as shown below. It’s designed to be modular and extendable, enabling easy integration of additional datasets, models, and training strategies.
@@ -17,7 +17,7 @@ This library facilitates the classification of optical remote sensing images usi
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/remote-sensing-library.git
+git https://github.com/pranavsingla/SwinViT_GNR650.git
 cd remote-sensing-library
 ```
 

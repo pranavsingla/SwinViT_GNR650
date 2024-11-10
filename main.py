@@ -23,7 +23,7 @@ def main():
     # train_dataset = download_million_aid(dataset_name="jonathan-roberts1/Million-AID", download_dir=dataset_dir)
 
     # Load the dataset into DataLoader here (assuming DatasetManager uses this format)
-    dataset_manager = DatasetManager(dataset_dir)  # Use the same directory as in the config
+    dataset_manager = DatasetManager(dataset_dir, batch_size=config['dataset']['batch_size'])  # Use the same directory as in the config
     train_loader, val_loader = dataset_manager.load_data()  # Adjust this according to your DatasetManager logic
     dataloaders = {'train': train_loader, 'val': val_loader}
 

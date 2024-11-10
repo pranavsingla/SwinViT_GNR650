@@ -7,3 +7,4 @@ Dataset already downloaded and organized.
   warnings.warn(
 Epoch 1/2 - Train loss: 3.2942, Val loss: 3.2691, Val accuracy: 0.1251
 Epoch 2/2 - Train loss: 3.2722, Val loss: 3.2561, Val accuracy: 0.1251
+

@@ -4,7 +4,7 @@
 dataset:
   name: "Million AID"
   data_dir: "./data/million_aid"  # Directory where the dataset will be stored
-  batch_size: 32
+  batch_size: 256 #32
   train_split: 0.8
   transform:
     resize: [224, 224]
@@ -20,7 +20,7 @@ model:
 
 # Training configuration
 training:
-  epochs: 2 #20
+  epochs: 5 #20
   lr: 0.001
   optimizer: "Adam"
   scheduler:
